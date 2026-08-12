@@ -236,3 +236,91 @@ footer {
     border-bottom: 1px dotted #51443a;
     padding-bottom: 5px;
 }
+
+.librarian {
+    width: 220px;
+    margin: 80px auto;
+    text-align: center;
+    position: relative;
+    font-family: "Comic Neue", cursive;
+    transform: rotate(-2deg);
+}
+
+.speech {
+    background: #e7d8bd;
+    color: #28201a;
+    padding: 12px 16px;
+    border-radius: 15px;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 0 #594839;
+}
+
+.librarian {
+    width: 220px;
+    margin: 80px auto;
+    text-align: center;
+    position: relative;
+    font-family: "Comic Neue", cursive;
+    transform: rotate(-2deg);
+}
+
+.speech {
+    background: #e7d8bd;
+    color: #28201a;
+    padding: 12px 16px;
+    border-radius: 15px;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 0 #594839;
+}
+
+.speech::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    border-width: 10px 8px 0;
+    border-style: solid;
+    border-color: #e7d8bd transparent transparent transparent;
+}
+
+.librarian img {
+    width: 160px;
+    height: 160px;
+
+    object-fit: contain;
+
+    display: block;
+    margin: 20px auto;
+
+    filter:
+        drop-shadow(4px 4px 0 #594839)
+        drop-shadow(0 8px 10px rgba(0, 0, 0, 0.35));
+    
+    transform: eotate(3deg);
+
+    transition:
+        transform 0.3s ease,
+}
+
+.librarian img:hover {
+    transform: rotate(-4deg) translateY(-7px) scale(1.06);
+
+    box-shadow:
+        drop-shadow(6px 6px 0 #594839)
+        drop-shadow(0 12px 15px rgba(0, 0, 0, 0.4));
+}
+
+.librarian-name {
+    margin-top: 8px;
+    color: #c4ad8c;
+    font-size: 16px;
+}
+
+.librarian-name small {
+    color: #766657;
+    font-size: 11px;
+}
