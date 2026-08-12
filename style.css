@@ -23,64 +23,136 @@ h1 {
     color: #eccae0;
 }
 
-header p {
+.subtitle {
     color: #eccae0;
     font-style: italic;
 }
 
-nav {
-    text-align: center;
-    padding: 20px;
-}
-
-nav a {
+.tiny {
+    font-size: 13px;
     color: #eccae0;
-    text-decoration: none;
-    margin: 0 15px;
+    letter-spacing: 2px;
 }
 
-nav a:hover {
+.note {
+    position: relative;
     color: #eccae0;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 15px;
 }
 
-section {
-    padding: 60px 20px;
-    border-bottom: 1px solid #302923;
+.note-one {
+    text-align: left;
 }
 
-h2 {
+.note-two {
+    transform: rotate(3deg);
+    text-align: right;
+    margin-right: 80px;
+}
+
+.bookshelf {
+    margin-top: 30px;
+    padding: 30px;
+    border-bottom: 12px solid #eccae0;
+}
+
+.bookshelf {
+    margin-top: 30px;
+    padding: 30px;
+    border-bottom: 12px solid #eccae0;
+}
+
+.bookshelf h2,
+journal h2 {
     font-family: "Comic Neue", cursive;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: normal;
-    color: #eccae0;
+}
+
+.books {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    height: 300px;
 }
 
 .book {
-    background-color: #1c1816;
-    border: 1px solid #eccae0;
-    padding: 20px;
-    margin: 20px 0;
+    width: 75px;
+    height: 220px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #241c18;
+    box-shadow: 4px 5px 0 #eccae0;
+    cursor: pointer;
     transition: 0.3s;
 }
 
 .book:hover {
-    background-color: #251f1b;
-    border-color: #eccae0;
+    transform: translateY(-15px) rotate(0deg);
 }
 
-.book h3 {
+.book span {
+    writing-mode: vertical-rl;
     font-family: "Comic Neue", cursive;
-    font-size: 25px;
-    color: #eccae0;
+    font-size: 20px;
 }
 
-.book p {
+.book small {
+    writing-mode: vertical-rl;
+    font-size: 11px;
+}
+
+.currently-reading {
+    margin: 80px 50px;
+    padding: 30px;
+    border: 1px solid #eccae0;
+    transform: rotate(-1deg);
+    background: #1c1815;
+}
+
+.currently-reading h2 {
+    font-family: "Comic Neue", cursive;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.rating {
     color: #eccae0;
+    letter-spacing: 5px;
+}
+
+.journal {
+    margin-top: 80px;
+}
+
+.journal-note {
+    background: #28231e;
+    padding: 30px;
+    max-width: 550px;
+    margin: 30px auto;
+    border: 1px solid #eccae0;
+    transform: rotate(1deg);
+    font-size: 20px;
+}
+
+.signature {
+    text-align: right;
+    font-style: cursive;
 }
 
 footer {
     text-align: center;
-    padding: 50px;
+    padding: 80px 20px 40px;
     color: #eccae0;
-    font-style: italic;
+}
+
+.secret {
+    font-family: "Comic Neue", cursive;
+    font-size: 12px;
+    color: #eccae0;
+    margin-top: 20px;
 }
