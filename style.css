@@ -4,21 +4,21 @@ body {
     font-family: "Comic Neue", cursive;
     font-size: 18px;
     line-height: 1.6;
-
     max-width: 900px;
     margin: auto;
-    padding: 30px;
+    padding: 40px;
+    line-height: 1.5
 }
 
 header {
     text-align: center;
-    padding: 70px 20px;
-    border-bottom: 1px solid #eccae0;
+    padding: 70px 20px 40px;
+    border-bottom: 1px dashed #eccae0;
 }
 
 h1 {
     font-family: "Comic Neue", cursive;
-    font-size: 60px;
+    font-size: 65px;
     font-weight: normal;
     color: #eccae0;
 }
