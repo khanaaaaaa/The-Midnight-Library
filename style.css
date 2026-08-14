@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "Augie";
+    src: url("fonts/augiepixel.ttf") format("truetype");
+}
+
 body {
     background-color: #12100f;
     color: #eccae0;
-    font-family: "Comic Neue", cursive;
-    font-size: 18px;
+    font-family: "Augie", cursive;
+    font-size: 21px;
     line-height: 1.6;
     max-width: 900px;
     margin: auto;
@@ -17,8 +22,8 @@ header {
 }
 
 h1 {
-    font-family: "Comic Neue", cursive;
-    font-size: 65px;
+    font-family: "Augie", cursive;
+    font-size: 75px;
     font-weight: normal;
     color: #eccae0;
 }
@@ -29,7 +34,7 @@ h1 {
 }
 
 .tiny {
-    font-size: 13px;
+    font-size: 15px;
     color: #eccae0;
     letter-spacing: 2px;
 }
@@ -37,8 +42,8 @@ h1 {
 .note {
     position: relative;
     color: #eccae0;
-    font-family: "Comic Sans MS", cursive;
-    font-size: 15px;
+    font-family: "Augie", cursive;
+    font-size: 17px;
 }
 
 .note-one {
@@ -65,7 +70,7 @@ h1 {
 
 .bookshelf h2,
 journal h2 {
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     font-size: 40px;
     font-weight: normal;
 }
@@ -97,13 +102,13 @@ journal h2 {
 
 .book span {
     writing-mode: vertical-rl;
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     font-size: 20px;
 }
 
 .book small {
     writing-mode: vertical-rl;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .book-one {
@@ -142,7 +147,7 @@ journal h2 {
 }
 
 .currently-reading h2 {
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     font-size: 35px;
     font-weight: normal;
 }
@@ -178,7 +183,7 @@ footer {
 }
 
 .secret {
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     font-size: 12px;
     color: #eccae0;
     margin-top: 20px;
@@ -193,7 +198,7 @@ footer {
 }
 
 .rules h2 {
-    font-family: "Comic Nue", cursive;
+    font-family: "Augie", cursive;
     font-size: 32px;
     color: #fff;
     margin-bottom: 15px;
@@ -223,14 +228,14 @@ footer {
 }
 
 .stats h2 {
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     font-size: 32px;
     color: #d7b98e;
     margin-bottom: 20px;
 }
 
 .stats-p {
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     color: #bcae9e;
     margin: 8px 0;
     border-bottom: 1px dotted #51443a;
@@ -242,7 +247,7 @@ footer {
     margin: 80px auto;
     text-align: center;
     position: relative;
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     transform: rotate(-2deg);
 }
 
@@ -262,7 +267,7 @@ footer {
     margin: 80px auto;
     text-align: center;
     position: relative;
-    font-family: "Comic Neue", cursive;
+    font-family: "Augie", cursive;
     transform: rotate(-2deg);
 }
 
@@ -300,7 +305,7 @@ footer {
         drop-shadow(4px 4px 0 #594839)
         drop-shadow(0 8px 10px rgba(0, 0, 0, 0.35));
     
-    transform: eotate(3deg);
+    transform: rotate(3deg);
 
     transition:
         transform 0.3s ease,
